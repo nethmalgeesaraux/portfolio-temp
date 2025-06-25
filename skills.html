@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skills - Nethmal Geesara</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('/aset/image/pexels-morningtrain-18105.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #2c3e50;
+      position: relative;
+    }
+
+    /* Overlay */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.8); /* Light overlay for readability */
+      z-index: -1;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 30px;
+      background: #ffffffee;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      color: #2980b9;
+      margin-bottom: 30px;
+    }
+
+    ul.skills-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul.skills-list li {
+      font-size: 1.2em;
+      padding: 12px 15px;
+      margin-bottom: 10px;
+      background-color: #f5f5f5;
+      border-left: 5px solid #2980b9;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+    }
+
+    ul.skills-list li:hover {
+      background-color: #e3f2fd;
+      transform: translateX(5px);
+    }
+
+    .icon {
+      margin-right: 10px;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+
+      ul.skills-list li {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>My Skills</h1>
+    <ul class="skills-list">
+      <li><span class="icon">🌐</span> HTML5</li>
+      <li><span class="icon">🎨</span> CSS</li>
+      <li><span class="icon">🧠</span> JavaScript</li>
+      <li><span class="icon">📸</span> Photo Editing</li>
+      <li><span class="icon">🎥</span> YouTube Thumbnail Creation</li>
+    </ul>
+  </div>
+
+</body>
+
+</html>
